@@ -1,6 +1,8 @@
 package ru.netology.domain;
 
 public class Share {
-    private String counterShare;
+    private int counterShare;
+    private int userReposted;
+    private Share[] shares;
 
 }

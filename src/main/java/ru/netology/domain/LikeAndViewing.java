@@ -1,7 +1,13 @@
 package ru.netology.domain;
 
 public class LikeAndViewing {
-    private String counterLike;
-    private String counterViewing;
+    private int counterLike;
+    private int userLikes;
+    private int canLike;
+    private int canPublish;
+
+
+    private int counterViewing;
+    private LikeAndViewing[] likeAndViewings;
 
 }
